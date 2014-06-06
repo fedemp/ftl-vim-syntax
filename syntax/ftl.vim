@@ -67,7 +67,7 @@ syn region ftlComment start=+<#--+ end=+-->+
 syn region ftlCommentAlt start=+\[#--+ end=+--\]+
 
 " keywords
-syn keyword ftlDirective contained list if else macro import include switch case break
+syn keyword ftlDirective contained list if else elseif macro import include switch case break
 syn keyword ftlDirective contained assign local global nested recurse fallback visit
 syn keyword ftlDirective contained function return t rt lt nt ftl
 syn keyword ftlKeyword contained as in using
